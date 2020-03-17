@@ -12,6 +12,8 @@ yarn start
 
 OK now you just need enter in your Postman
 
+Just JSON request will be accepted !!
+
 \*if you dont put a id in body, it will be automatically created
 
 C - post for http://localhost:4000
