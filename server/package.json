@@ -1,0 +1,19 @@
+{
+  "name": "crudenterness",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Vitor de Oliveira <vitordeoliveira50@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "json": "json-server -p 9999 --watch ../data/data.json",
+    "start": "concurrently \"yarn dev\" \"yarn json\""
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "concurrently": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "json-server": "^0.16.0"
+  }
+}
