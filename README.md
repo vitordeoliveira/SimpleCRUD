@@ -18,6 +18,6 @@ C - post for http://localhost:4000
 
 R - get for http://localhost:4000 --- patch to get one http://localhost:4000/:id
 
-U - put forhttp://localhost:4000/:id
+U - put for http://localhost:4000/:id
 
 D - delete http://localhost:4000/:id
