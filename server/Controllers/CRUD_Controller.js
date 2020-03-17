@@ -23,6 +23,16 @@ module.exports = {
     }
   },
 
+  async show(req, res) {
+    try {
+      const { id } = req.params;
+      const { data } = await axios.get(`http://localhost:9999/customers/${id}`);
+      return res.json(data);
+    } catch (error) {
+      console.log(error);
+    }
+  },
+
   async update(req, res) {
     const { id } = req.params;
     const info = req.body;
